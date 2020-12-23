@@ -1,0 +1,50 @@
+#rightwheel		{
+	animation:abc 1s linear infinite ;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+@keyframes abc{
+	from{
+		transform: rotateZ(0deg);
+	}to{
+		transform: rotateZ(360deg);
+	}
+}
+#leftwheel		{
+	animation:abc 1s linear infinite ; 
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+@keyframes abc{
+	from{
+		transform: rotateZ(0deg);
+	}to{
+		transform: rotateZ(360deg); 
+	}
+}
+#biker{
+	animation:biker 1s ease-in-out infinite alternate;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+@keyframes biker{
+	from{
+		transform: rotateX(0deg);
+	}to{
+		transform: rotateX(20deg); 
+	}
+}
+#hat{
+	animation:hat 1s ease-in-out infinite alternate;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+@keyframes hat{
+	from{
+		transform: rotateX(0deg);
+	}to{
+		transform: rotateX(20deg); 
+	}
+}
